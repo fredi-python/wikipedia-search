@@ -1,4 +1,5 @@
 import wikipedia #pip install wikipedia
 
-a = wikipedia.summary('Python (programming)')
+input_wiki = input('Wikipedia Search \n')
+a = wikipedia.summary(input_wiki)
 print(a)
